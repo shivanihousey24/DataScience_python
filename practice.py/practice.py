@@ -247,3 +247,5 @@ var=int(input("enter an integer to the middle element"))
 hat_list[int(len(hat_list)//2)]=var
 print(hat_list)
 print(hat_list.pop())
+
+print("hii")
