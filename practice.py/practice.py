@@ -248,4 +248,6 @@ hat_list[int(len(hat_list)//2)]=var
 print(hat_list)
 print(hat_list.pop())
 
-print("hii")
+a=67
+b=78
+print(a+b)
