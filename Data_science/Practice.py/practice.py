@@ -256,7 +256,7 @@
 # print(len(my_list2))
 # print(my_list2)
 
-# list1=[10,3,4,6,67,98]
+# list1=[10,3,4,6,68]
 # for i in range(len(list1)):
 #     print(list1[i])
 
