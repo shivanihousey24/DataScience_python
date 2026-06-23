@@ -1,105 +1,44 @@
-# Create a variable and print its value
-# Assign multiple variables in one line
-# Swap two variables without using third variable
-# Take user input and print it
-# Check the type of a variable
-# Convert int to float
-# Convert string to int
-# Assign same value to multiple variables
-# Print variable using f-string
-# Add two variables and print result
-# Create constant variable (convention)
-# Check memory address using id()
-# Delete a variable using del
-# Create dynamic variable (change type)
-# Use global and local variables
-# 🔥 SECTION 2: Data Types (16–30)
-# Create int, float, string variables
-# Find datatype using type()
-# Convert list to tuple
-# Convert tuple to list
-# Create a dictionary
-# Access dictionary values
-# Create a set and remove duplicates
-# Check if value exists in set
-# String slicing
-# Reverse a string
-# Count characters in string
-# Find length of list
-# Concatenate two strings
-# Check if string is numeric
-# Convert boolean values
-# 🔥 SECTION 3: Operators (31–45)
-# Perform arithmetic operations
-# Use comparison operators
-# Logical AND, OR, NOT
-# Bitwise operators
-# Assignment operators
-# Find remainder using %
-# Check even or odd using operator
-# Use // floor division
-# Compare two numbers
-# Check greater number
-# Use ternary operator
-# Identity operators (is, is not)
-# Membership operators (in, not in)
-# Find power using **
-# Operator precedence example
-# 🔥 SECTION 4: Conditional Statements (46–60)
-# Check if number is positive
-# Check even or odd
-# Find largest of 3 numbers
-# Check leap year
-# Grade system using marks
-# Check vowel or consonant
-# Login system (username/password)
-# Nested if example
-# Check divisible by 5 and 11
-# Find smallest number
-# Calculator using if-else
-# Traffic light system
-# Age eligibility for voting
-# Check palindrome number
-# Menu-driven program
-# 🔥 SECTION 5: Loops (61–80)
-# Print numbers 1 to 10
-# Print even numbers
-# Print odd numbers
-# Sum of first n numbers
-# Factorial using loop
-# Multiplication table
-# Reverse a number
-# Count digits in number
-# Fibonacci series
-# Prime number check
-# Print pattern (stars)
-# Nested loops pattern
-# Break statement example
-# Continue statement example
-# While loop example
-# Infinite loop (controlled)
-# Sum of digits
-# Armstrong number
-# Palindrome number
-# Number guessing game
-# 🔥 SECTION 6: Lists (81–100)
-# Create a list
-# Access elements
-# Add elements (append)
-# Insert at position
-# Remove element
-# Pop element
-# Sort list
-# Reverse list
-# Find max and min
-# Count occurrences
-# Remove duplicates
-# Merge two lists
-# Find common elements
-# List comprehension example
-# Square all elements
-# Filter even numbers
-# Flatten nested list
-# Find second largest
-# Rotate list
-# Find frequency of elements
+# 🔰Basic Loop Questions
+# Write a program to print the first 10 natural numbers using a for loop. Each number should be printed on a new line.
+# Write a program to print numbers from 10 to 1 using a for loop. Each number should be printed on a new line.
+# Write a program to print all even numbers between 1 and 50 using a for loop.
+# Write a program to print all odd numbers between 1 and 50 using a for loop.
+# Write a program to calculate the sum of the first 10 natural numbers using a for loop.
+# Write a program to display the multiplication table of a given number using a for loop.
+# Write a program to print all numbers between 1 and 100 that are divisible by 5.
+# Write a program to count how many numbers between 1 and 100 are divisible by 3.
+# Write a program to print the square of numbers from 1 to 10.
+# Write a program to print the cube of numbers from 1 to 10.
+# 🔁 IF-ELSE with Loop
+# Write a program to check whether each number in a given range is even or odd.
+# Write a program to print only positive numbers from a list using a loop.
+# Write a program to print only negative numbers from a list using a loop.
+# Write a program to count even and odd numbers in a list.
+# Write a program to find the largest number in a list using a loop.
+# Write a program to find the smallest number in a list using a loop.
+# Write a program to print numbers divisible by both 3 and 5 between 1 and 100.
+# Write a program to replace numbers divisible by 3 with "Fizz".
+# Write a program to replace numbers divisible by 5 with "Buzz".
+# Write a program to replace numbers divisible by both 3 and 5 with "FizzBuzz".
+# 🔢 Number-Based Logic
+# Write a program to check whether a number is prime or not.
+# Write a program to print all prime numbers between 1 and 50.
+# Write a program to find the factorial of a number using a loop.
+# Write a program to check whether a number is a palindrome.
+# Write a program to reverse a number using a loop.
+# Write a program to find the sum of digits of a number.
+# Write a program to count the number of digits in a number.
+# Write a program to check whether a number is an Armstrong number.
+# Write a program to check whether a number is a perfect number.
+# Write a program to generate Fibonacci series up to N terms.
+# 🧠 List + Loop + IF-ELSE
+# Write a program to print all elements of a list using a loop.
+# Write a program to print elements at even index positions in a list.
+# Write a program to print elements at odd index positions in a list.
+# Write a program to count occurrences of a number in a list.
+# Write a program to remove duplicate elements from a list without using set.
+# Write a program to reverse a list using a loop.
+# Write a program to find the sum of all elements in a list.
+# Write a program to find the average of elements in a list.
+# Write a program to merge two lists using a loop.
+# Write a program to find common elements between two lists.
