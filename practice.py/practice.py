@@ -242,12 +242,13 @@
 # # my_list[2]=int(input("enter by user"))
 # # print(my_list)
 
-hat_list=[1,2,3,4,5]
-var=int(input("enter an integer to the middle element"))
-hat_list[int(len(hat_list)//2)]=var
-print(hat_list)
-print(hat_list.pop())
-
+# hat_list=[1,2,3,4,5]
+# var=int(input("enter an integer to the middle element"))
+# hat_list[int(len(hat_list)//2)]=var
+# print(hat_list)
+# print(hat)
 a=67
 b=78
 print(a+b)
+q=67
+print(q)
