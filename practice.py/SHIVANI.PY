@@ -1,9 +1,19 @@
 # 🔰Basic Loop Questions
 # Write a program to print the first 10 natural numbers using a for loop. Each number should be printed on a new line.
+for i in range(11):
+    print(i)
 # Write a program to print numbers from 10 to 1 using a for loop. Each number should be printed on a new line.
+for count in range(10,0,-1):
+    print(count)
 # Write a program to print all even numbers between 1 and 50 using a for loop.
+for i in range(0,50,2):
+    print(i)
 # Write a program to print all odd numbers between 1 and 50 using a for loop.
+for i in range(1,50,2):
+    print(i)
 # Write a program to calculate the sum of the first 10 natural numbers using a for loop.
+for i in range(10):
+    
 # Write a program to display the multiplication table of a given number using a for loop.
 # Write a program to print all numbers between 1 and 100 that are divisible by 5.
 # Write a program to count how many numbers between 1 and 100 are divisible by 3.
