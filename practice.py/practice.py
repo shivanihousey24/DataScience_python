@@ -247,8 +247,39 @@
 # hat_list[int(len(hat_list)//2)]=var
 # print(hat_list)
 # print(hat)
-a=67
-b=78
-print(a+b)
-q=67
-print(q)
+
+# my_list= [10,20,30,40,50,60,70,80,90,100]
+# sum_list=(sum(my_list))
+# print(sum_list)
+
+# my_list=[10,20,30,40,50,60,70,80,90,100]
+# sum=0
+# for index in range(len(my_list)):
+#     sum += my_list[index]
+# print("sum : " ,sum)
+
+# a variable copy without use third variable
+# a=10
+# b=20
+# a,b=b,a
+# print("a :",a)
+# print("b :",b)
+
+# list swap
+# my_list=[1,2,3,4,5]
+# print(my_list)
+# my_list[0],my_list[1]=my_list[2],my_list[4]
+# my_list[0],my_list[1]=my_list[2],my_list[4]
+
+# lst=[1,2,3,4,5]
+# lst2=[]
+# add=0
+# for number in lst:
+#     add+= number
+#     lst2.append(add)
+# print(lst2)
+# print(lst)
+
+# lst=[]
+# del lst
+# print(lst)
