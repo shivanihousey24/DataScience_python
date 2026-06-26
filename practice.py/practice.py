@@ -266,10 +266,11 @@
 # print("b :",b)
 
 # list swap
-# my_list=[1,2,3,4,5]
+# my_list=[1,2,3,4]
 # print(my_list)
-# my_list[0],my_list[1]=my_list[2],my_list[4]
-# my_list[0],my_list[1]=my_list[2],my_list[4]
+# my_list[0],my_list[1]=my_list[1],my_list[0]
+# my_list[2],my_list[3]=my_list[3],my_list[2]
+# print(my_list)
 
 # lst=[1,2,3,4,5]
 # lst2=[]
@@ -283,3 +284,51 @@
 # lst=[]
 # del lst
 # print(lst)
+
+# bubble  sort best case
+# arr=[8,10,6,2,4]
+# print(arr)
+# count=0
+# for i in range(len(arr)-1):
+#     for j in range(len(arr)-1-i):
+#         count +=1
+#         if arr[j]>arr[j+1]:
+#             arr[j],arr[j+1]=arr[j+1],arr[j]
+# print(arr)
+# print(count)
+
+# while loop implement
+# my_list=[8,10,6,2,4]
+# swapped=True
+# count=0
+# while swapped:
+#     swapped=False
+#     for i in range(len(my_list)-1):
+#         count += 1
+#         if my_list[i]>my_list[i+1]:
+#             swapped=True
+#             my_list[i],my_list[i+1]=my_list[i+1],my_list[i]
+# print(my_list)
+# print(count)
+
+# merge sort 
+# arr2=[2,4,7,0,9,3,8,1,5,6]
+# for i in range=(len(arr)-1):
+# insertion sort
+# selction sort
+# quick sort
+# radix sort
+# heap sort
+# shall sort
+
+# its a reverse method
+my_list=[10,6,8,4,2]
+print(my_list)
+for i in range(len(my_list)//2):
+    my_list[i],my_list[-1*(i+1)]=my_list[-1*(i+1)],my_list[i]
+print(my_list)
+my_list=[10,6,8,4,2]
+my_list.reverse()
+print(my_list)
+# my_list.sort()
+# print(my_list)
