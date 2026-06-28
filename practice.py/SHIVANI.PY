@@ -15,21 +15,28 @@
 # for i in range(10):
     
 # Write a program to display the multiplication table of a given number using a for loop.
-num=int(input("enter your number :"))
-for i in range(1,11):
-    mul=num*i
-    print(num,"*",i,"=", mul)
+# num=int(input("enter your number :"))
+# for i in range(1,11):
+#     mul=num*i
+#     print(num,"*",i,"=", mul)
 # Write a program to print all numbers between 1 and 100 that are divisible by 5.
-num=int(input("enter your number"))
-
-for i in range(1,100):
-    
-    print
+# for i in range(1,101):
+#     if i % 5==0:
+#         print(i)
 # Write a program to count how many numbers between 1 and 100 are divisible by 3.
 # Write a program to print the square of numbers from 1 to 10.
+# for i in range(1,11):
+#     print("square of :",i,"=",i**2)    
 # Write a program to print the cube of numbers from 1 to 10.
+# for i in range(1,11):
+#     print("cube are :",i,"=",i**3)   
 # 🔁 IF-ELSE with Loop
 # Write a program to check whether each number in a given range is even or odd.
+# num=int(input("Enter your number :"))
+# if num%2==0:
+#     print("number is even :")
+# else:
+#     print("number is odd")
 # Write a program to print only positive numbers from a list using a loop.
 # Write a program to print only negative numbers from a list using a loop.
 # Write a program to count even and odd numbers in a list.
