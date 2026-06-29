@@ -322,13 +322,46 @@
 # shall sort
 
 # its a reverse method
-my_list=[10,6,8,4,2]
-print(my_list)
-for i in range(len(my_list)//2):
-    my_list[i],my_list[-1*(i+1)]=my_list[-1*(i+1)],my_list[i]
-print(my_list)
-my_list=[10,6,8,4,2]
-my_list.reverse()
-print(my_list)
+# my_list=[10,6,8,4,2]
+# print(my_list)
+# for i in range(len(my_list)//2):
+#     my_list[i],my_list[-1*(i+1)]=my_list[-1*(i+1)],my_list[i]
+# print(my_list)
+
+# my_list=[10,6,8,4,2]
+# my_list.reverse()
+# print(my_list)
 # my_list.sort()
 # print(my_list)
+# lst=["a","b","G"]
+# lst.sort()
+# print(lst)
+
+# a=45
+# b=56
+# lst=[a,b]
+# lst.sort()c=
+# print(lst)
+# a="A"
+# b="B"
+# c=" "
+# lst=[a,b,c]
+# lst.reverse()
+# print(lst)
+
+# list_1=[1]
+# list_2=list_1
+# list_1[0]=2
+# print(list_2)
+
+# list_1=[1,2,3,4,5]
+# list_2=list_1[1:]
+# list_1[0]=2
+# print(list_2)
+# print(list_1)
+
+list_2=[1,2,3]
+a=list_2[2:4]
+print(a)
+lst=list_2[-1:1]
+print(lst)
