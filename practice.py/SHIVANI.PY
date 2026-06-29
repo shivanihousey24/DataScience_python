@@ -32,15 +32,37 @@
 #     print("cube are :",i,"=",i**3)   
 # 🔁 IF-ELSE with Loop
 # Write a program to check whether each number in a given range is even or odd.
-# num=int(input("Enter your number :"))
-# if num%2==0:
-#     print("number is even :")
-# else:
-#     print("number is odd")
+# start=int(input("Enter your number :"))
+# end=int(input("enter youe number :"))
+# for i in range(start, end):
+#     if i%2==0:
+#         print("number",i,"is even")
+#     else:
+#         print("number",i," is odd")
 # Write a program to print only positive numbers from a list using a loop.
+# myList=[1,-3,5,-7,-4,2,4,-8]
+# for num in myList:
+#     if num>0:
+#         print(num,"number is positive")
 # Write a program to print only negative numbers from a list using a loop.
+# myList=[1,-3,5,-7,-4,2,4,-8]
+# for num in myList:
+#     if num<0:
+#         print(num,"num is negative")
 # Write a program to count even and odd numbers in a list.
+# lst=[1,2,3,4,5,6,7,8,9,10,12]
+# even_count=0
+# odd_count=0
+# for num in lst:
+#    if num%2==0:
+#        even_count+=1
+#    else:
+#        odd_count+=1
+# print(even_count,"num is even")
+# print(odd_count,"num is odd")
+      
 # Write a program to find the largest number in a list using a loop.
+        
 # Write a program to find the smallest number in a list using a loop.
 # Write a program to print numbers divisible by both 3 and 5 between 1 and 100.
 # Write a program to replace numbers divisible by 3 with "Fizz".
@@ -59,6 +81,9 @@
 # Write a program to generate Fibonacci series up to N terms.
 # 🧠 List + Loop + IF-ELSE
 # Write a program to print all elements of a list using a loop.
+lst=[1,2,3,4,5,7]
+for i in lst:
+    print(i)
 # Write a program to print elements at even index positions in a list.
 # Write a program to print elements at odd index positions in a list.
 # Write a program to count occurrences of a number in a list.
