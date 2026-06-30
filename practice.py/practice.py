@@ -313,7 +313,7 @@
 
 # merge sort 
 # arr2=[2,4,7,0,9,3,8,1,5,6]
-# for i in range=(len(arr)-1):
+# for i in range(len(arr)-1):
 # insertion sort
 # selction sort
 # quick sort
@@ -360,8 +360,46 @@
 # print(list_2)
 # print(list_1)
 
-list_2=[1,2,3]
-a=list_2[2:4]
-print(a)
-lst=list_2[-1:1]
-print(lst)
+# list_2=[1,2,3]
+# a=list_2[2:4]
+# print(a)
+# lst=list_2[-1:1]
+# print(lst)
+
+# myList=[10,4,6]
+# del myList
+# print(myList)
+
+# myList=[1,2,2,4]
+# print(5 in myList)
+# print(5 not in myList)
+
+# myList=[17,3,11,5,1,9,7,15,13]
+# largestNumber=15
+# for i in range(myList):
+#     if largestNumber>i:
+#         print()
+# find largest number
+myList=[17,3,11,5,1,9,7,15,13]
+max_value=myList[0]
+for num in myList:
+    if num>max_value:
+        max_value=num
+print(max_value)
+# even number
+lst=[1,2,3,4,5,6,7,8,8,10]
+for i in range(len(lst)):
+    if i%2==0:
+        print("even number",i)
+#  search 5
+mylst=[17,3,11,5,1,9,7,15,13]
+findElement=mylst[3]
+for num in mylst:
+    if num==findElement:
+        findElement=num
+print(findElement)
+# 2nd method
+for index in range(len(mylst)):
+    if mylst[index]==5:
+        print(index)
+        break
