@@ -62,10 +62,28 @@
 # print(odd_count,"num is odd")
       
 # Write a program to find the largest number in a list using a loop.
-        
+# lst=[1,2,3,56,78,234]
+# largest=lst[5]
+# for num in lst:
+#     if num>largest:
+#         largest=num
+# print("largest number is :",largest)
+
 # Write a program to find the smallest number in a list using a loop.
+# lst=[23,4,56,78,2,1,89]
+# smallest=lst[5]
+# for num in lst:
+#     if smallest>num:
+#         smallest=num
+# print("smallest number is :",smallest)
+
 # Write a program to print numbers divisible by both 3 and 5 between 1 and 100.
+for i in range(1,101):
+    if i%3==0 and i%5 == 0:
+        print(i)
+        
 # Write a program to replace numbers divisible by 3 with "Fizz".
+
 # Write a program to replace numbers divisible by 5 with "Buzz".
 # Write a program to replace numbers divisible by both 3 and 5 with "FizzBuzz".
 # 🔢 Number-Based Logic
@@ -81,9 +99,7 @@
 # Write a program to generate Fibonacci series up to N terms.
 # 🧠 List + Loop + IF-ELSE
 # Write a program to print all elements of a list using a loop.
-lst=[1,2,3,4,5,7]
-for i in lst:
-    print(i)
+
 # Write a program to print elements at even index positions in a list.
 # Write a program to print elements at odd index positions in a list.
 # Write a program to count occurrences of a number in a list.

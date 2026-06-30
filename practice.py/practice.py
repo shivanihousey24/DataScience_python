@@ -379,6 +379,7 @@
 # for i in range(myList):
 #     if largestNumber>i:
 #         print()
+
 # find largest number
 myList=[17,3,11,5,1,9,7,15,13]
 max_value=myList[0]
@@ -386,11 +387,13 @@ for num in myList:
     if num>max_value:
         max_value=num
 print(max_value)
+
 # even number
 lst=[1,2,3,4,5,6,7,8,8,10]
 for i in range(len(lst)):
     if i%2==0:
         print("even number",i)
+        
 #  search 5
 mylst=[17,3,11,5,1,9,7,15,13]
 findElement=mylst[3]
