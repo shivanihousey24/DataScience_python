@@ -78,14 +78,28 @@
 # print("smallest number is :",smallest)
 
 # Write a program to print numbers divisible by both 3 and 5 between 1 and 100.
-for i in range(1,101):
-    if i%3==0 and i%5 == 0:
-        print(i)
+# for i in range(1,101):
+#     if i%3==0 and i%5 == 0:
+#         print(i)
         
 # Write a program to replace numbers divisible by 3 with "Fizz".
+# for i in range(1,10):
+#     if i%3==0:
+#         i="Fizz"
+#     print(i)
 
 # Write a program to replace numbers divisible by 5 with "Buzz".
+# for i in range(1,11):
+#     if i%5==0:
+#         i="Buzz"
+#     print(i)
+
 # Write a program to replace numbers divisible by both 3 and 5 with "FizzBuzz".
+# for i in range(1,100):
+#     if i%3==0 and i%5==0:
+#         i="FuzzBuzz"
+#     print(i)
+
 # 🔢 Number-Based Logic
 # Write a program to check whether a number is prime or not.
 # Write a program to print all prime numbers between 1 and 50.
@@ -109,3 +123,20 @@ for i in range(1,101):
 # Write a program to find the average of elements in a list.
 # Write a program to merge two lists using a loop.
 # Write a program to find common elements between two lists.
+
+'''
+# simple calculator
+print("1 = Add     2 = Sub     3 = Mul     4 Div")
+choice=int(input("enter select 1 to 4 choice : "))
+a=int(input("Enter your num :"))
+b=int(input("Enter your num :"))
+if choice==1:
+    print(a,"+",b,"=",a+b)
+elif choice==2:
+    print(a,"-",b,"=",a-b)
+elif choice==3:
+    print(a,"*",b,"=",a*b)
+elif choice==4:
+    print(a,"/",b,"=",a/b)
+else:
+    print("envalid error")'''
