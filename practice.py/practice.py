@@ -73,17 +73,19 @@
 # x^=3
 # print(x)
 
-# # camparison operation
+# camparison operation
 # a=10
 # b=5
-# print("a==b:",a==b)
-# print("a!=b:",a!=b)
-# print("a>=b:",a>=b)
-# print("a<=b:",a<=b)
-# print("a>b:",a>b)
-# print("a<b:",a<b)
+# print("a=10 & b=5 a==b:",a==b)
+# print("a=10 & b=5 a!=b:",a!=b)
+# print("a=10 & b=5 a>=b:",a>=b)
+# print("a=10 & b=5 a<=b:",a<=b)
+# print("a=10 & b=5 a>b:",a>b)
+# print("a=10 & b=5 a<b:",a<b)
 
-# # logical operators
+# " and or not is a reservd keyword but used in operator "
+
+# logical operators
 # x=5
 # print(x<10 and x<15)
 # print(x<5 or x<10)
@@ -94,6 +96,7 @@
 # print(x is y)
 # print(x is not y)
 
+
 # x=["maruti","BMW"]
 # y=["maruti","BMW"]
 # z=x
@@ -101,10 +104,15 @@
 # print(x is not y)
 # print(y is x)
 # print(y is not x)
+# x=10
+# y=20
+# print(x is y)   # False
 
 # print("BMW" in x)
 # print("BMW" not in x)
 # print("saloni" in x)
+
+# bitwise operator
 # x=10
 # y=20
 # print(x & y)
@@ -148,6 +156,7 @@
 # print("+" + "-"*10 +"+")
 # multiple code covert single line code
 # print(("+" + "-"*10 +"+\n")+(("|" + " " * 10 + "|\n") * 5)+("+" + "-"*10 +"+"))
+
 # name="shivani"
 # print(name[0])
 # print(name[1])
@@ -164,6 +173,42 @@
 # print(name[-6])
 # print(name[-7])
 
+# text="hello python world"
+# print(text.replace('python','AI'))
+
+# csv='shivani,23,indore,Engineer'
+# parts=csv.split(',')
+# print("parts :",parts)
+# print(parts[0])
+# rejoined='|'.join(parts)
+# print("rejoined :",rejoined)
+
+# #check conteent
+# print("hello123".isalnum())
+# print("hello123*".isalnum())
+# print("12345".isdigit())
+# print("python".isalpha())
+# print(" ".isspace())
+
+# #staert/end check
+# email="shivani@gmail.com"
+# print(email.endswith("com"))
+# print(email.startswith("shi"))
+# name,marks,rank='Anita',56.89,2
+# print(name,marks,rank)
+# print(f'hello,{name}!')
+
+# #format number
+# print(f'marks:{marks:.2f}')
+# print(f'marks:{marks:.0f}')
+# print(f'count:{100000:,}')
+
+# # padding and alignment
+# print(f'{name:<15}|{marks:>8.2f}|rank:{rank}')
+
+# # expresdsion inside {}
+# price,gst=500,0.18
+# print(f'price:RS.{price} |gst:RS.{price*gst:.2f}|total:rs.{price*(1+gst):.2f}')
 # var=0
 # print(var==0)
 # var=2
@@ -381,28 +426,28 @@
 #         print()
 
 # find largest number
-myList=[17,3,11,5,1,9,7,15,13]
-max_value=myList[0]
-for num in myList:
-    if num>max_value:
-        max_value=num
-print(max_value)
+# myList=[17,3,11,5,1,9,7,15,13]
+# max_value=myList[0]
+# for num in myList:
+#     if num>max_value:
+#         max_value=num
+# print(max_value)
 
 # even number
-lst=[1,2,3,4,5,6,7,8,8,10]
-for i in range(len(lst)):
-    if i%2==0:
-        print("even number",i)
+# lst=[1,2,3,4,5,6,7,8,8,10]
+# for i in range(len(lst)):
+#     if i%2==0:
+#         print("even number",i)
         
 #  search 5
-mylst=[17,3,11,5,1,9,7,15,13]
-findElement=mylst[3]
-for num in mylst:
-    if num==findElement:
-        findElement=num
-print(findElement)
+# mylst=[17,3,11,5,1,9,7,15,13]
+# findElement=mylst[3]
+# for num in mylst:
+#     if num==findElement:
+#         findElement=num
+# print(findElement)
 # 2nd method
-for index in range(len(mylst)):
-    if mylst[index]==5:
-        print(index)
-        break
+# for index in range(len(mylst)):
+#     if mylst[index]==5:
+#         print(index)
+#         break

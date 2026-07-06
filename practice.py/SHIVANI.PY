@@ -102,9 +102,18 @@
 
 # 🔢 Number-Based Logic
 # Write a program to check whether a number is prime or not.
+num=int(input("Enter your number :"))
+for i in range(2,num+1):    
+    if num % i == 0:
+        print("prime")
+    # else:
+    #     print("not prime")
 # Write a program to print all prime numbers between 1 and 50.
+
 # Write a program to find the factorial of a number using a loop.
+
 # Write a program to check whether a number is a palindrome.
+
 # Write a program to reverse a number using a loop.
 # Write a program to find the sum of digits of a number.
 # Write a program to count the number of digits in a number.
