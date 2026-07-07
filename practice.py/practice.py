@@ -172,7 +172,8 @@
 # print(name[-5])
 # print(name[-6])
 # print(name[-7])
-
+a="shivani"
+print(a.encode())
 text="hello python world"
 print(text.replace('python','AI'))
 
@@ -180,20 +181,21 @@ csv='shivani,23,indore,Engineer'
 parts=csv.split(',')
 print("parts :",parts)
 print(parts[0])
-rejoined='|'.join(parts)
+rejoined=','.join(parts)
 print("rejoined :",rejoined)
 
 #check conteent
 print("hello123".isalnum())
 print("hello123*".isalnum())
-print("12345".isdigit())
-print("python".isalpha())
-print(" ".isspace())
+print("12345".isdigit())  #all digit print
+print("python".isalpha()) # all alphabet print and output True
+print(" ".isspace())        # space print 
 
 #staert/end check
 email="shivani@gmail.com"
 print(email.endswith("com"))
 print(email.startswith("shi"))
+
 name,marks,rank='Anita',56.89,2
 print(name,marks,rank)
 print(f'hello,{name}!')
@@ -204,11 +206,12 @@ print(f'marks:{marks:.0f}')
 print(f'count:{100000:,}')
 
 # padding and alignment
-print(f'{name:<15}|{marks:>8.2f}|rank:{rank}')
+print(f'{name:<2}|{marks:>8.2f}|Rank:{rank}')
 
-# expresdsion inside {}
+# expression inside {}
 price,gst=500,0.18
 print(f'price:RS.{price} |gst:RS.{price*gst:.2f}|total:rs.{price*(1+gst):.2f}')
+
 # var=0
 # print(var==0)
 # var=2
