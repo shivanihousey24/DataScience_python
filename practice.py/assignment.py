@@ -78,6 +78,12 @@ step 5: use the insert() method to add Ringo Starr to the beginning of the list.
 
 '''
 Ask user first name, last name, age, city, favourite skill. print a formatted name card with proper padding and alignment
+┌------------------------------┐
+| Name     : Shivani Chouksey  |
+| Age      : 23                |
+| City     : Indore            |
+| Skill    : Datascience       |
+└------------------------------┘
 '''
 # solution
 first_name=input("Enter your name :")
@@ -85,12 +91,13 @@ last_name=input("Enter your name :")
 age=input("Enter your Age :")
 city=input("Enter your City :")
 skill=input("Enter your Skill :")
+name=first_name+" "+last_name
 print("┌" + "-"*30 + "┐")
-name=(f'Name :{first_name} {last_name}')
-ages=(f'Age  :{age}')
-ctys=(f'City :{city}')
-skll=(f'Skill:{skill}')
-line=[name,ages,ctys,skll]
+print(f'| {'Name':<8} : {name :<18}|')
+print(f'| {'Age':<8} : {age :<18}|')
+print(f'| {'City':<8} : {city :<18}|')
+print(f'| {'Skill':<8} : {skill :<18}|')
 print("└" + "-"*30 + "┘")
+
 
 
