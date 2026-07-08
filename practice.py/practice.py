@@ -172,67 +172,88 @@
 # print(name[-5])
 # print(name[-6])
 # print(name[-7])
-a="shivani"
-print(a.encode())
-text="hello python world"
-print(text.replace('python','AI'))
 
-csv='shivani,23,indore,Engineer'
-parts=csv.split(',')
-print("parts :",parts)
-print(parts[0])
-rejoined=','.join(parts)
-print("rejoined :",rejoined)
+# a="shivani"
+# print(a.encode())
+# text="hello python world"
+# print(text.replace('python','AI'))
 
-#check conteent
-print("hello123".isalnum())
-print("hello123*".isalnum())
-print("12345".isdigit())  #all digit print
-print("python".isalpha()) # all alphabet print and output True
-print(" ".isspace())        # space print 
+# csv='shivani,23,indore,Engineer'
+# parts=csv.split(',')
+# print("parts :",parts)
+# print(parts[0])
+# rejoined=','.join(parts)
+# print("rejoined :",rejoined)
 
-#staert/end check
-email="shivani@gmail.com"
-print(email.endswith("com"))
-print(email.startswith("shi"))
+# #check conteent
+# print("hello123".isalnum())
+# print("hello123*".isalnum())
+# print("12345".isdigit())  #all digit print
+# print("python".isalpha()) # all alphabet print and output True
+# print(" ".isspace())        # space print 
 
-name,marks,rank='Anita',56.89,2
-print(name,marks,rank)
-print(f'hello,{name}!')
+# #staert/end check
+# email="shivani@gmail.com"
+# print(email.endswith("com"))
+# print(email.startswith("shi"))
 
-#format number
-print(f'marks:{marks:.2f}')
-print(f'marks:{marks:.0f}')
-print(f'count:{100000:,}')
+# name,marks,rank='Anita',56.89,2
+# print(name,marks,rank)
+# print(f'hello,{name}!')
 
-# padding and alignment
-print(f'{name:<2}|{marks:>8.2f}|Rank:{rank}')
+# #format number
+# print(f'marks:{marks:.2f}')
+# print(f'marks:{marks:.0f}')
+# print(f'count:{100000:,}')
 
-# expression inside {}
-price,gst=500,0.18
-print(f'price:RS.{price} |gst:RS.{price*gst:.2f}|total:rs.{price*(1+gst):.2f}')
+# # padding and alignment
+# print(f'{name:<2}|{marks:>8.2f}|Rank:{rank}')
+
+# # expression inside {}
+# price,gst=500,0.18
+# print(f'price:RS.{price} |gst:RS.{price*gst:.2f}|total:rs.{price*(1+gst):.2f}')
 
 # var=0
 # print(var==0)
 # var=2
 # print(var==1)
 # if else elif statement
+
 # num1=int(input("enter your first number : "))
 # num2=int(input("enter your second number : "))
-# # if num1>num2: larger_number=num1
-# # else:
-# #     larger_number=num2
+# if num1>num2: 
+#     larger_number=num1
+# else:
+#     larger_number=num2
     
-# # print("the largest number is : ", larger_number)
+# print("the largest number is : ", larger_number)
+
+# num1=int(input("enter your first number : "))
+# num2=int(input("enter your first number : "))
+# num3=int(input("enter your first number : "))
+# largest_number=num1
+# if num2>largest_number:
+#     largest_number=num2
+# if num3>largest_number:
+#     largest_number=num3
+# print("largest number :",largest_number)
+
 # largest_number=max(num1,num2)
 # lowest_number=min(num1,num2)
-# print("The largest_number is : ",largest_number)
-# print("The lowest_number is : ",lowest_number)
-# #loop statement 
+# print("The largest_number is : ", largest_number)
+# print("The lowest_number is : ", lowest_number)
+#loop statement 
 # while False:
 #     print("Hiii i am shivani")
+# largest_number=-999999999
+# num=int(input("enter a num or tyupe -1 to stop :"))
+# while num !=-1:
+#     if num>largest_number:
+#         largest_number=num
+#     num=int(input("enter a num or tyupe -1 to stop :"))
+# print("the largwest number is :",largest_number)
 
-# num=int(input("enter your number"))
+# num=int(input("Enter your number"))
 # even_num=0
 # odd_num=0 
 # while num!=0:
@@ -244,14 +265,66 @@ print(f'price:RS.{price} |gst:RS.{price*gst:.2f}|total:rs.{price*(1+gst):.2f}')
 # print ("Even numver : ",even_num)
 # print("odd number : ",odd_num)
 
+
 # for counter in range(100):
 #     print("counter :",counter)
+ 
     
-# for counter in range(5,-9):
+# for counter in range(5,10):
 #     print(counter)
 
 
-# conditon false hone ke bad else print hoga 
+# exit=1
+# while exit !=0:
+#     exit=int(input("Enter number :"))
+#     print(exit)
+
+# for counter in range(2,1):
+#      print(counter)
+# power=1
+# for expo in range(16):
+#     print("2 the power of",expo,"=",power)
+#     power *=2
+        
+# power=1
+# for expo in range(16):
+#     print("2 the power of",expo,"=",power)
+#     power *=2 
+#     if expo==7:
+#         break  
+# print("---------NOW I AM OUT----------") 
+# power=1
+# for expo in range(16):
+#     if expo ==7:
+#         continue
+#     print("2 the power of",expo,"=",power)
+#     power *=2
+# print("---------NOW I AM OUT----------") 
+
+# for counter in range(1,6):
+#     if counter==3:
+#         break
+#     print(counter)
+    
+# for counter in range(1,6):
+#     if counter==3:
+#         continue
+#     print(counter)
+
+# largest_num=-99999
+# counter=0
+# while True:
+#     num=int(input("Enter your num :"))
+#     if num==-1:
+#         break
+#     counter+=1
+#     if num>largest_num:
+#         largest_num=num
+# if counter!=0:
+#     print(largest_num)
+# else:
+#     print("you haven't enter any num :")
+    
 # counter=1
 # while counter>-5:
 #     print(counter)

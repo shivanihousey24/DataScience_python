@@ -149,3 +149,29 @@ elif choice==4:
     print(a,"/",b,"=",a/b)
 else:
     print("envalid error")'''
+    
+# 1. Take inputs from the user
+first_name = input("Enter your first name: ").strip()
+last_name = input("Enter your last name: ").strip()
+age = input("Enter your age: ").strip()
+city = input("Enter your city (and state if applicable): ").strip()
+skill = input("Enter your favorite skill: ").strip()
+
+# 2. Format the inner text lines (aligning the colons)
+name_line = f"NAME  : {first_name} {last_name}"
+age_line = f"AGE   : {age} years"
+city_line = f"CITY  : {city}"
+skill_line = f"SKILL : {skill}"
+
+lines = [name_line, age_line, city_line, skill_line]
+
+# 3. Determine the width of the box dynamically based on the longest text
+max_len = max(len(line) for line in lines)
+card_width = max_len + 2  # Adding 2 spaces for padding inside the border
+
+# 4. Print the formatted name card
+print("\n" + "┌" + "─" * card_width + "┐")
+for line in lines:
+    # ljust(max_len) ensures all lines have the same length by padding spaces on the right
+    print(f"│ {line.ljust(max_len)} │")
+print("└" + "─" * card_width + "┘")
