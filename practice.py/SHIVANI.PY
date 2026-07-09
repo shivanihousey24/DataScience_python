@@ -102,17 +102,19 @@
 
 # 🔢 Number-Based Logic
 # Write a program to check whether a number is prime or not.
-num=int(input("Enter your number :"))
-for i in range(2,num+1):    
-    if num % i == 0:
-        print("prime")
-    # else:
-    #     print("not prime")
+
 # Write a program to print all prime numbers between 1 and 50.
 
 # Write a program to find the factorial of a number using a loop.
+# num = int(input("Enter a number: "))
+
+# fact = 1
+# for i in range(1, num + 1):
+#     fact = fact * i
+# print("Factorial of", num, "is", fact)
 
 # Write a program to check whether a number is a palindrome.
+
 
 # Write a program to reverse a number using a loop.
 # Write a program to find the sum of digits of a number.
@@ -150,28 +152,20 @@ elif choice==4:
 else:
     print("envalid error")'''
     
-# 1. Take inputs from the user
-first_name = input("Enter your first name: ").strip()
-last_name = input("Enter your last name: ").strip()
-age = input("Enter your age: ").strip()
-city = input("Enter your city (and state if applicable): ").strip()
-skill = input("Enter your favorite skill: ").strip()
+'''
+here once was a hat. The hat contained no rabbit, but a list of five numbers: 1, 2, 3, 4, and 5.
+Your task is to:
+(Step 1) write a line of code that prints the length of the existing list 
+(Step 2)write a line of code that removes the last element from the list 
+(Step 3)write a line of code that prompts the user to replace the middle number in the list with an integer number entered by the user 
+'''
+# program:-
+lst=[1,2,3,4,5]
+lengthOfList=len(lst)
+print(lengthOfList)     # step 1
 
-# 2. Format the inner text lines (aligning the colons)
-name_line = f"NAME  : {first_name} {last_name}"
-age_line = f"AGE   : {age} years"
-city_line = f"CITY  : {city}"
-skill_line = f"SKILL : {skill}"
+del lst[len(lst)-1]
+print(lst)               # step 2
 
-lines = [name_line, age_line, city_line, skill_line]
-
-# 3. Determine the width of the box dynamically based on the longest text
-max_len = max(len(line) for line in lines)
-card_width = max_len + 2  # Adding 2 spaces for padding inside the border
-
-# 4. Print the formatted name card
-print("\n" + "┌" + "─" * card_width + "┐")
-for line in lines:
-    # ljust(max_len) ensures all lines have the same length by padding spaces on the right
-    print(f"│ {line.ljust(max_len)} │")
-print("└" + "─" * card_width + "┘")
+lst[1]=int(input("Enter your num :"))
+print(lst)               #step 3

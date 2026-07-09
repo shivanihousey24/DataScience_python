@@ -331,43 +331,43 @@
 #     counter-=1
 # else:
 #     print("else:",counter)
+'''
+truthy : 1,2,3,-1,-20,"a","hello",[1,2,3],{1,2}
+falsy : 0,{},[],(),none,NULL
+list adress are refrence number 
+'''
+
+# i=1
+# j=not not i
+# print(i)
+# print(j)
 
 # list started
-# num=[1,4,7,5,"shivani",True,(1,2,3)]
-# print(type(num))
-# print("original list content : ",num)
-# print(num[0])
-# print(num[1])
-# print(num[2])
-# print(num[3])
-# print(num[4])
-# print(num[5])
-# print(num[-1]) # list index negative 
-# print(num[-2])
-# print(num[-3])
-# print(num[-4])
-# num[1]=num[5]
-# print("new list conntent : ",num)
-# print(len(num))
-# del num[2] #delete a array in list
-# print(num)
-# print(len(num))
-# num1=""
-# print(num1)
+num=[1,4,7,5,"shivani",True,(1,2,3)]
+print(type(num))
+print("original list content : ",num)
+print(num[0])
+print(num[1])
+print(num[2])
+print(num[3])
+print(num[4])
+print(num[5])
+print(num[-1]) # list index negative 
+print(num[-2])
+print(num[-3])
+print(num[-4])
+num[1]=num[5]
+print("new list conntent : ",num)
+print(len(num))
+del num[2] #delete a array in list
+print(num)
+print(len(num))
+num1=""
+print(num1)
 
-# my_list= [1,2,3,4,5]
-# print("current list :",my_list)
-# print(len(my_list))
-# my_list[len(my_list/2)]
-# print(my_list)
-# # my_list[2]=int(input("enter by user"))
-# # print(my_list)
-
-# hat_list=[1,2,3,4,5]
-# var=int(input("enter an integer to the middle element"))
-# hat_list[int(len(hat_list)//2)]=var
-# print(hat_list)
-# print(hat)
+a=10
+print(id(a))
+print(hex(id(a)))
 
 # my_list= [10,20,30,40,50,60,70,80,90,100]
 # sum_list=(sum(my_list))
