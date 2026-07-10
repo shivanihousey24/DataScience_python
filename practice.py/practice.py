@@ -343,31 +343,31 @@ list adress are refrence number
 # print(j)
 
 # list started
-num=[1,4,7,5,"shivani",True,(1,2,3)]
-print(type(num))
-print("original list content : ",num)
-print(num[0])
-print(num[1])
-print(num[2])
-print(num[3])
-print(num[4])
-print(num[5])
-print(num[-1]) # list index negative 
-print(num[-2])
-print(num[-3])
-print(num[-4])
-num[1]=num[5]
-print("new list conntent : ",num)
-print(len(num))
-del num[2] #delete a array in list
-print(num)
-print(len(num))
-num1=""
-print(num1)
+# num=[1,4,7,5,"shivani",True,(1,2,3)]
+# print(type(num))
+# print("original list content : ",num)
+# print(num[0])
+# print(num[1])
+# print(num[2])
+# print(num[3])
+# print(num[4])
+# print(num[5])
+# print(num[-1]) # list index negative 
+# print(num[-2])
+# print(num[-3])
+# print(num[-4])
+# num[1]=num[5]
+# print("new list conntent : ",num)
+# print(len(num))
+# del num[2] #delete a array in list
+# print(num)
+# print(len(num))
+# num1=""
+# print(num1)
 
-a=10
-print(id(a))
-print(hex(id(a)))
+# a=10
+# print(id(a))
+# print(hex(id(a)))
 
 # my_list= [10,20,30,40,50,60,70,80,90,100]
 # sum_list=(sum(my_list))
@@ -527,3 +527,28 @@ print(hex(id(a)))
 #     if mylst[index]==5:
 #         print(index)
 #         break
+
+# list=[1,2,3,4]
+# print(list)
+# list.append(6)
+# print(list)
+# print("length of list :",len(list))
+# list.insert(2,7)
+# print(list)
+# print("length of list :",len(list))
+
+# lst=[11,22,33,44,55,66,77,88,99,101]
+# for index in range(len(lst)):
+#     print(lst[index])
+# lst=[1,2,3,5,6,7,5,4]
+# index=0
+# while index<len(lst):
+#     print(lst[index])
+#     index+=1
+
+#Empty list insert 1 to 10 
+# list=[]
+# for i in range(81,101):
+#     list.append(i)
+# print(list)
+

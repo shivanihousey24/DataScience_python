@@ -117,6 +117,11 @@
 
 
 # Write a program to reverse a number using a loop.
+my_list=[10,6,8,4,2]
+print(my_list)
+for i in range(len(my_list)//2):
+    my_list[i],my_list[-1*(i+1)]=my_list[-1*(i+1)],my_list[i]
+print(my_list)
 # Write a program to find the sum of digits of a number.
 # Write a program to count the number of digits in a number.
 # Write a program to check whether a number is an Armstrong number.
@@ -167,5 +172,5 @@ print(lengthOfList)     # step 1
 del lst[len(lst)-1]
 print(lst)               # step 2
 
-lst[1]=int(input("Enter your num :"))
+lst[2]=int(input("Enter your num :"))
 print(lst)               #step 3
