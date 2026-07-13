@@ -379,6 +379,17 @@ list adress are refrence number
 #     sum += my_list[index]
 # print("sum : " ,sum)
 
+#  a variable copy with use third variable
+# a=10
+# b=100
+# print(a)
+# print(b)
+# temp=b
+# b=a
+# a=temp
+# print(a)
+# print(b)
+
 # a variable copy without use third variable
 # a=10
 # b=20
@@ -387,36 +398,36 @@ list adress are refrence number
 # print("b :",b)
 
 # list swap
-# my_list=[1,2,3,4]
-# print(my_list)
-# my_list[0],my_list[1]=my_list[1],my_list[0]
-# my_list[2],my_list[3]=my_list[3],my_list[2]
-# print(my_list)
+my_list=[1,2,3,4]
+print(my_list)
+my_list[0],my_list[1]=my_list[1],my_list[0]
+my_list[2],my_list[3]=my_list[3],my_list[2]
+print(my_list)
 
-# lst=[1,2,3,4,5]
-# lst2=[]
-# add=0
-# for number in lst:
-#     add+= number
-#     lst2.append(add)
-# print(lst2)
-# print(lst)
+lst=[1,2,3,4,5]
+lst2=[]
+add=0
+for number in lst:
+    add += number
+    lst2.append(add)
+print(lst2)
+print(lst)
 
-# lst=[]
-# del lst
-# print(lst)
+lst=[]
+del lst
+print(lst)
 
 # bubble  sort best case
-# arr=[8,10,6,2,4]
-# print(arr)
-# count=0
-# for i in range(len(arr)-1):
-#     for j in range(len(arr)-1-i):
-#         count +=1
-#         if arr[j]>arr[j+1]:
-#             arr[j],arr[j+1]=arr[j+1],arr[j]
-# print(arr)
-# print(count)
+arr=[8,10,6,2,4]
+print(arr)
+count=0
+for i in range(len(arr)-1):
+    for j in range(len(arr)-1-i):
+        count +=1
+        if arr[j]>arr[j+1]:
+            arr[j],arr[j+1]=arr[j+1],arr[j]
+print(arr)
+print(count)
 
 # while loop implement
 # my_list=[8,10,6,2,4]
@@ -537,9 +548,26 @@ list adress are refrence number
 # print(list)
 # print("length of list :",len(list))
 
-# lst=[11,22,33,44,55,66,77,88,99,101]
+
+# lst=[10,20,30,40,50,60,70,80,90,100]
 # for index in range(len(lst)):
-#     print(lst[index])
+#     lst[index]=lst[index] + 1
+# print(lst)
+
+# lst=[10,20,30,40,50,60,70,80,90,100]
+# sum=0
+# for index in range(len(lst)):
+#     sum += lst[index]
+# print(sum)
+
+# lst=[10,20,30,40,50,60,70,80,90,100]
+# index=0
+# for i in lst:
+#     print("lst [",index,"] = ",i)
+#     index+=1
+
+
+
 # lst=[1,2,3,5,6,7,5,4]
 # index=0
 # while index<len(lst):

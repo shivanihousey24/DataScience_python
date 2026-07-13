@@ -117,11 +117,11 @@
 
 
 # Write a program to reverse a number using a loop.
-my_list=[10,6,8,4,2]
-print(my_list)
-for i in range(len(my_list)//2):
-    my_list[i],my_list[-1*(i+1)]=my_list[-1*(i+1)],my_list[i]
-print(my_list)
+# my_list=[10,6,8,4,2]
+# print(my_list)
+# for i in range(len(my_list)//2):
+#     my_list[i],my_list[-1*(i+1)]=my_list[-1*(i+1)],my_list[i]
+# print(my_list)
 # Write a program to find the sum of digits of a number.
 # Write a program to count the number of digits in a number.
 # Write a program to check whether a number is an Armstrong number.
@@ -164,13 +164,24 @@ Your task is to:
 (Step 2)write a line of code that removes the last element from the list 
 (Step 3)write a line of code that prompts the user to replace the middle number in the list with an integer number entered by the user 
 '''
-# program:-
-lst=[1,2,3,4,5]
-lengthOfList=len(lst)
-print(lengthOfList)     # step 1
+# # program:-
+# lst=[1,2,3,4,5]
+# lengthOfList=len(lst)
+# print(lengthOfList)     # step 1
 
-del lst[len(lst)-1]
-print(lst)               # step 2
+# del lst[len(lst)-1]
+# print(lst)               # step 2
 
-lst[2]=int(input("Enter your num :"))
-print(lst)               #step 3
+# lst[2]=int(input("Enter your num :"))
+# print(lst)               #step 3
+
+for row in range(6):
+    for col in range(7):
+        if (row == 0 and col % 3 != 0) or \
+           (row == 1 and col % 3 == 0) or \
+           (row - col == 2) or \
+           (row + col == 8):
+            print("*", end=" ")
+        else:
+            print(" ", end="")
+print()
