@@ -398,34 +398,54 @@ list adress are refrence number
 # print("b :",b)
 
 # list swap
-my_list=[1,2,3,4]
-print(my_list)
-my_list[0],my_list[1]=my_list[1],my_list[0]
-my_list[2],my_list[3]=my_list[3],my_list[2]
-print(my_list)
+# my_list=[1,2,3,4]
+# print(my_list)
+# my_list[0],my_list[1]=my_list[1],my_list[0]
+# my_list[2],my_list[3]=my_list[3],my_list[2]
+# print(my_list)
 
-lst=[1,2,3,4,5]
-lst2=[]
-add=0
-for number in lst:
-    add += number
-    lst2.append(add)
-print(lst2)
-print(lst)
+# lst=[1,2,3,4,5]
+# lst2=[]
+# add=0
+# for number in lst:
+#     add += number
+#     lst2.append(add)
+# print(lst2)
+# print(lst)
 
-lst=[]
-del lst
-print(lst)
+# lst=[]
+# del lst
+# print(lst)
+'''
+is called dry run
+'''
 
 # bubble  sort best case
-arr=[8,10,6,2,4]
+''' DRY RUN
+index       index_inner     current list  
+0               0           [8,10,6,2,4]
+                1           [8,6,10,2,4]
+                2           [8,6,2,10,4]
+                3           [8,6,2,4,10]
+                .
+                .
+                .
+4                           [2,4,6,8,10]
+'''
+
+#arr=[8,10,6,2,4]
+arr=[1,2,3,4,5]
 print(arr)
 count=0
+swapped=False
 for i in range(len(arr)-1):
     for j in range(len(arr)-1-i):
-        count +=1
+        count += 1
         if arr[j]>arr[j+1]:
             arr[j],arr[j+1]=arr[j+1],arr[j]
+            swapped=True
+    if not swapped:
+        break
 print(arr)
 print(count)
 

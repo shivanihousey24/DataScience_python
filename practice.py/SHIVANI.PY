@@ -122,8 +122,17 @@
 # for i in range(len(my_list)//2):
 #     my_list[i],my_list[-1*(i+1)]=my_list[-1*(i+1)],my_list[i]
 # print(my_list)
+
 # Write a program to find the sum of digits of a number.
+num = [1,1,45,55,34,23]
+sum=0
+for index in num:
+    sum +=index
+print(sum)
+
 # Write a program to count the number of digits in a number.
+a=int(input("Enter your num :"))
+print(len(a))
 # Write a program to check whether a number is an Armstrong number.
 # Write a program to check whether a number is a perfect number.
 # Write a program to generate Fibonacci series up to N terms.
@@ -175,13 +184,3 @@ Your task is to:
 # lst[2]=int(input("Enter your num :"))
 # print(lst)               #step 3
 
-for row in range(6):
-    for col in range(7):
-        if (row == 0 and col % 3 != 0) or \
-           (row == 1 and col % 3 == 0) or \
-           (row - col == 2) or \
-           (row + col == 8):
-            print("*", end=" ")
-        else:
-            print(" ", end="")
-print()

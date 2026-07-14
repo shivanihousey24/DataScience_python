@@ -5,13 +5,13 @@ to the screen if the inputted string is "Spathiphyllum" (upper-case)prints "No, 
 if the inputted string is "spathiphyllum" (lower-case)prints "Spathiphyllum! Not [input]!" otherwise. Note: [input] is the string taken as input.
 '''
 # solution:-
-plants_name=input("enter a plants name : ")
-if plants_name=="Spathiphyllum":
-    print("Yes - Spathiphyllum is the best plant ever!" )
-elif plants_name=="spathiphyllum":
-    print("No, I want a big Spathiphyllum!" )
-else:
-    print("Spathiphyllum NOT",plants_name)
+# plants_name=input("enter a plants name : ")
+# if plants_name=="Spathiphyllum":
+#     print("Yes - Spathiphyllum is the best plant ever!" )
+# elif plants_name=="spathiphyllum":
+#     print("No, I want a big Spathiphyllum!" )
+# else:
+#     print("Spathiphyllum NOT",plants_name)
 
 ''' Quesytion number 2  
 Once upon a time there was a land a land of milk and honey, inhabited by happy and prosperous people. The people paid taxes, of course – their happiness had limits. The most important tax, called the Personal Income Tax (PIT for short) had to be paid once a year, and was evaluated using the following rule:
@@ -25,15 +25,15 @@ this happy country never returned any money to its citizens. If the calculated t
 it would only mean no tax at all (the tax was equal to zero). Take this into consideration during your calculations.
 '''
 # solution:-
-income=float(input("enter a income number :"))
-if income<=85528:
-    tax=(income*0.18)-556.02
-else:
-    tax=14839.02+(0.32(income-85528))
-    if tax<0:
-         tax=0
-tax=round(tax)
-print(tax)
+# income=float(input("enter a income number :"))
+# if income<=85528:
+#     tax=(income*0.18)-556.02
+# else:
+#     tax=14839.02+(0.32(income-85528))
+#     if tax<0:
+#          tax=0
+# tax=round(tax)
+# print(tax)
 
 '''Question number 3
 As you surely know, due to some astronomical reasons, years may be leap or common. 
@@ -49,12 +49,12 @@ The code should output one of two possible messages, which are Leap year or Comm
 It would be good to verify if the entered year falls into the Gregorian era, and output a warning otherwise: Not within the Gregorian calendar period.
 '''
 # solution:-
-blocks=int(input("enter your blocks :"))
-counter=0
-while(blocks-counter>0):
-    counter+=1
-    blocks=blocks-counter
-    print(f'height of the pyramid :{counter}')
+# blocks=int(input("enter your blocks :"))
+# counter=0
+# while(blocks-counter>0):
+#     counter+=1
+#     blocks=blocks-counter
+#     print(f'height of the pyramid :{counter}')
     
 '''Practice Question number 4 
 The Beatles were one of the most popular music groups of the 1960s, and the best-selling band in history. Some people consider them to be the most influential act of the rock era. Indeed, they were included in Time magazine's compilation of the 20th Century's 100 most influential people.
@@ -67,21 +67,22 @@ step 4: use the del instruction to remove Stu Sutcliffe and Pete Best from the l
 step 5: use the insert() method to add Ringo Starr to the beginning of the list.
 '''
 # solution:-
-beatles=[] # step 1 
+beatles=[]                          # step 1 
 beatles.append("John Lennon")
 beatles.append("Paul McCartney")
 beatles.append("George Harrison")
-print("Add 3 member of the band :",beatles) # step 2
+print("Add 3 member of the band :",beatles)     # step 2
 for i in range(2):
     name=input("Enter your Name :")
     beatles.append(name)
-print("Add 2 member of the band :",beatles) # step 3
-del beatles[3]
+print("Add 2 member of the band :",beatles)      # step 3
+position=4
+del beatles[position-1]
 print("Remove stu sutcliffe :",beatles)
-del beatles[3]
-print("Remove pete best :",beatles) # step 4
+del beatles[position-1]
+print("Remove pete best :",beatles)             # step 4
 beatles.insert(0,"Ringo")
-print("final list :",beatles) #  step 5
+print("final list :",beatles)              #  step 5
 
 ''' Question number 5
 Ask user first name, last name, age, city, favourite skill. print a formatted name card with proper padding and alignment
