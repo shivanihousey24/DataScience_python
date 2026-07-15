@@ -434,20 +434,20 @@ index       index_inner     current list
 '''
 
 #arr=[8,10,6,2,4]
-arr=[1,2,3,4,5]
-print(arr)
-count=0
-swapped=False
-for i in range(len(arr)-1):
-    for j in range(len(arr)-1-i):
-        count += 1
-        if arr[j]>arr[j+1]:
-            arr[j],arr[j+1]=arr[j+1],arr[j]
-            swapped=True
-    if not swapped:
-        break
-print(arr)
-print(count)
+# arr=[1,2,3,4,5]
+# print(arr)
+# count=0
+# swapped=False
+# for i in range(len(arr)-1):
+#     for j in range(len(arr)-1-i):
+#         count += 1
+#         if arr[j]>arr[j+1]:
+#             arr[j],arr[j+1]=arr[j+1],arr[j]
+#             swapped=True
+#     if not swapped:
+#         break
+# print(arr)
+# print(count)
 
 # while loop implement
 # my_list=[8,10,6,2,4]
@@ -485,14 +485,15 @@ print(count)
 # print(my_list)
 # my_list.sort()
 # print(my_list)
-# lst=["a","b","G"]
+
+# lst=["a","b","G","B"]
 # lst.sort()
 # print(lst)
 
 # a=45
 # b=56
 # lst=[a,b]
-# lst.sort()c=
+# lst.sort()
 # print(lst)
 # a="A"
 # b="B"
@@ -527,10 +528,10 @@ print(count)
 # print(5 not in myList)
 
 # myList=[17,3,11,5,1,9,7,15,13]
-# largestNumber=15
+# largestNumber=17
 # for i in range(myList):
 #     if largestNumber>i:
-#         print()
+#         print(myList)
 
 # find largest number
 # myList=[17,3,11,5,1,9,7,15,13]
@@ -600,3 +601,31 @@ print(count)
 #     list.append(i)
 # print(list)
 
+
+# list comprehesion
+# row=[] # basic method
+# for i in range(8):
+#     row.append("WHITE_PAWN")
+# print(row)
+
+# #  list comprehesion use
+# row=["WHITE_POWN" for i in range(8)]
+# print(row)
+
+# squares=[x ** 2 for x in range(11)]
+# print(squares)
+
+# twos=[2 **i for i in range(11)]
+# print(twos)
+
+# odds=[x for x in squares if x % 2 != 0]
+# print(odds)
+
+# even=[x for x in squares if x % 2 == 0]
+# print(even)
+
+board=[]
+for i in range(8):
+    row=["EMPTY" for i in range(8)]
+    board.append(row)
+print(board)
