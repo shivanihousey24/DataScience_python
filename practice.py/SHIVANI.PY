@@ -2,15 +2,19 @@
 # Write a program to print the first 10 natural numbers using a for loop. Each number should be printed on a new line.
 # for i in range(11):
 #     print(i)
+
 # # Write a program to print numbers from 10 to 1 using a for loop. Each number should be printed on a new line.
 # for count in range(10,0,-1):
 #     print(count)
+
 # # Write a program to print all even numbers between 1 and 50 using a for loop.
 # for i in range(0,50,2):
 #     print(i)
+
 # # Write a program to print all odd numbers between 1 and 50 using a for loop.
 # for i in range(1,50,2):
 #     print(i)
+
 # Write a program to calculate the sum of the first 10 natural numbers using a for loop.
 # for i in range(10):
     
@@ -19,18 +23,28 @@
 # for i in range(1,11):
 #     mul=num*i
 #     print(num,"*",i,"=", mul)
+
 # Write a program to print all numbers between 1 and 100 that are divisible by 5.
 # for i in range(1,101):
 #     if i % 5==0:
 #         print(i)
+
 # Write a program to count how many numbers between 1 and 100 are divisible by 3.
+# sum=0
+# for i in range(1,100):
+#     if i%3 == 0:
+#         sum += 1
+# print(sum)
+    
 # Write a program to print the square of numbers from 1 to 10.
 # for i in range(1,11):
 #     print("square of :",i,"=",i**2)    
 # Write a program to print the cube of numbers from 1 to 10.
 # for i in range(1,11):
-#     print("cube are :",i,"=",i**3)   
+#     print("cube are :",i,"=",i**3) 
+  
 # 🔁 IF-ELSE with Loop
+
 # Write a program to check whether each number in a given range is even or odd.
 # start=int(input("Enter your number :"))
 # end=int(input("enter youe number :"))
@@ -39,16 +53,19 @@
 #         print("number",i,"is even")
 #     else:
 #         print("number",i," is odd")
+
 # Write a program to print only positive numbers from a list using a loop.
 # myList=[1,-3,5,-7,-4,2,4,-8]
 # for num in myList:
 #     if num>0:
 #         print(num,"number is positive")
+
 # Write a program to print only negative numbers from a list using a loop.
 # myList=[1,-3,5,-7,-4,2,4,-8]
 # for num in myList:
 #     if num<0:
 #         print(num,"num is negative")
+
 # Write a program to count even and odd numbers in a list.
 # lst=[1,2,3,4,5,6,7,8,9,10,12]
 # even_count=0
@@ -102,8 +119,24 @@
 
 # 🔢 Number-Based Logic
 # Write a program to check whether a number is prime or not.
+# num=int(input("Enter your num :"))
+# if num <=1:
+#     print("NOT PRIME")
+# else:
+#     for i in range(2,num):
+#         if num % i== 0:
+#             print("NOT PRIME")
+#             break
+#     else:
+#             print("PRIME")
 
 # Write a program to print all prime numbers between 1 and 50.
+# for num in range(1,50):
+#     for i in range(2,num):
+#         if num % i ==0:
+#             break
+#     else:
+#         print(num,end=" ")
 
 # Write a program to find the factorial of a number using a loop.
 # num = int(input("Enter a number: "))
@@ -124,15 +157,14 @@
 # print(my_list)
 
 # Write a program to find the sum of digits of a number.
-num = [1,1,45,55,34,23]
-sum=0
-for index in num:
-    sum +=index
-print(sum)
+# num = [1,1,45,55,34,23]
+# sum=0
+# for index in num:
+#     sum +=index
+# print(sum)
 
 # Write a program to count the number of digits in a number.
-a=int(input("Enter your num :"))
-print(len(a))
+
 # Write a program to check whether a number is an Armstrong number.
 # Write a program to check whether a number is a perfect number.
 # Write a program to generate Fibonacci series up to N terms.
