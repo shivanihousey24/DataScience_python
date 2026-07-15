@@ -216,3 +216,66 @@ Your task is to:
 # lst[2]=int(input("Enter your num :"))
 # print(lst)               #step 3
 
+# list comprehension.
+# 1.Create a list of numbers from 1 to 10 using list comprehension.
+lst=[x for x in range(1,10)]
+print(lst)
+# 2.Create a list of squares of numbers from 1 to 10.
+squares=[x ** 2 for x in range(1,11)]
+print(squares)
+# Output:[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+# 3.Create a list of cubes of numbers from 1 to 10.
+cube=[x ** 3 for x in range(1,11)]
+print(cube)
+# 4.Create a list of all even numbers between 1 and 50.
+even=[x for x in range(1,51) if x % 2 ==0]
+print(even)
+# 5.Create a list of all odd numbers between 1 and 50.
+odd=[x for x in range(1,51) if x % 2 !=0]
+print(odd)
+# 6.Create a list containing numbers divisible by 3 een 1 and 100.
+divBy3=[x for x in range(1,101) if x % 3 ==0]
+print(divBy3)
+# 7.Create a list containing numbers divisible by 5 between 1 and 100.
+divBy5=[x for x in range(1,101) if x % 5 ==0]
+print(divBy5)
+# 8.Given: numbers = [10, 15, 20, 25, 30] Create a new list by adding 5 to every element.
+numbers = [10, 15, 20, 25, 30]
+num=[x + 5 for x in numbers]
+print(num)
+# 9.Given: numbers = [1,2,3,4,5] Multiply every element by 10.
+numbers = [1,2,3,4,5]
+num=[x + 10 for x in numbers]
+print(num)
+# 10.Given:names = ["ram", "shyam", "mohan"] Convert all names to uppercase.
+names = ["ram", "shyam", "mohan"]
+name=[names.upper() for names in names]
+print(name)
+# 11.Given:words = ["Python","Java","C","HTML"] Convert all words to lowercase.
+words = ["Python","Java","C","HTML"]
+worlds=[words.lower() for words in words]
+print(worlds)
+# 12.Given:numbers = [2,5,8,11,14,17] Create a list containing only even numbers.
+numbers = [2,5,8,11,14,17]
+num=[x for x in numbers if x % 2 ==0]
+print(num)
+# 13.Given:numbers = [2,5,8,11,14,17] Create a list containing only odd numbers.
+numbers = [2,5,8,11,14,17]
+num=[x for x in numbers if x % 2 !=0]
+print(num)
+# 14.Given:numbers = [10,-5,6,-2,9,-7] Create a list containing only positive numbers.
+
+# 15.Given:numbers = [10,-5,6,-2,9,-7] Create a list containing only negative numbers.
+# 16.Create a list of all prime numbers between 1 and 100 using list comprehension.
+# 17.Given:sentence = "Python Programming" Create a list of all characters except spaces.
+# 18.Given:words = ["apple","banana","cat","dog","elephant"] Create a list containing only words whose length is greater than 3.
+# 19.Given:numbers = [1,2,3,4,5,6,7,8,9,10] Create a new list where:
+# Even numbers → Square
+# Odd numbers → Cube
+# Example: [1,4,27,16,125,36,343,64,729,100]
+# 20.Given:names = ["ram","shyam","mohan","sohan"]
+# Create a list like:
+# ['Hello Ram',
+#  'Hello Shyam',
+#  'Hello Mohan',
+#  'Hello Sohan']
