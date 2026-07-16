@@ -603,29 +603,31 @@ index       index_inner     current list
 
 
 # list comprehesion
-# row=[] # basic method
-# for i in range(8):
-#     row.append("WHITE_PAWN")
-# print(row)
+row=[] # basic method
+for i in range(8):
+    row.append("WHITE_PAWN")
+print(row)
 
-# #  list comprehesion use
-# row=["WHITE_POWN" for i in range(8)]
-# print(row)
+#  list comprehesion use
+row=["WHITE_POWN" for i in range(8)]
+print(row)
 
-# squares=[x ** 2 for x in range(11)]
-# print(squares)
+squares=[x ** 2 for x in range(11)]
+print(squares)
 
-# twos=[2 **i for i in range(11)]
-# print(twos)
+twos=[2 **i for i in range(11)]
+print(twos)
 
-# odds=[x for x in squares if x % 2 != 0]
-# print(odds)
+odds=[x for x in squares if x % 2 != 0]
+print(odds)
 
-# even=[x for x in squares if x % 2 == 0]
-# print(even)
+even=[x for x in squares if x % 2 == 0]
+print(even)
 
 board=[]
 for i in range(8):
     row=["EMPTY" for i in range(8)]
     board.append(row)
 print(board)
+
+print("hello world")
