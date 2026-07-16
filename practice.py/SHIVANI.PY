@@ -264,14 +264,30 @@ numbers = [2,5,8,11,14,17]
 num=[x for x in numbers if x % 2 !=0]
 print(num)
 # 14.Given:numbers = [10,-5,6,-2,9,-7] Create a list containing only positive numbers.
-
+numbers = [10,-5,6,-2,9,-7]
+num=[x for x in numbers if x>0]
+print(num)
 # 15.Given:numbers = [10,-5,6,-2,9,-7] Create a list containing only negative numbers.
+numbers = [10,-5,6,-2,9,-7]
+num=[x for x in numbers if x<0]
+print(num)
 # 16.Create a list of all prime numbers between 1 and 100 using list comprehension.
+#primeNum=[x for x in range(1,101) if x % ]
 # 17.Given:sentence = "Python Programming" Create a list of all characters except spaces.
+sentence = "Python Programming"
+str=[ch for ch in sentence if ch !=" "]
+print(str)
 # 18.Given:words = ["apple","banana","cat","dog","elephant"] Create a list containing only words whose length is greater than 3.
+words = ["apple","banana","cat","dog","elephant"]
+word=[ch for ch in words if len(ch)> 3 ]
+print(word) 
 # 19.Given:numbers = [1,2,3,4,5,6,7,8,9,10] Create a new list where:
 # Even numbers → Square
 # Odd numbers → Cube
+numbers = [1,2,3,4,5,6,7,8,9,10]
+squares=[x**2 for x in numbers if x % 2==0]
+cube=[x**3 for x in numbers if x % 2 !=0]
+print(squares,cube)
 # Example: [1,4,27,16,125,36,343,64,729,100]
 # 20.Given:names = ["ram","shyam","mohan","sohan"]
 # Create a list like:
@@ -279,3 +295,6 @@ print(num)
 #  'Hello Shyam',
 #  'Hello Mohan',
 #  'Hello Sohan']
+names = ["ram","shyam","mohan","sohan"]
+name=["Hello" + name.capitalize() for name in names ]
+print(name)
