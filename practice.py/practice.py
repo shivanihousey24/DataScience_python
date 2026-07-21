@@ -603,31 +603,84 @@ index       index_inner     current list
 
 
 # list comprehesion
-row=[] # basic method
-for i in range(8):
-    row.append("WHITE_PAWN")
-print(row)
+# row=[] # basic method
+# for i in range(8):
+#     row.append("WHITE_PAWN")
+# print(row)
 
-#  list comprehesion use
-row=["WHITE_POWN" for i in range(8)]
-print(row)
+# #  list comprehesion use
+# row=["WHITE_POWN" for i in range(8)]
+# print(row)
 
-squares=[x ** 2 for x in range(11)]
-print(squares)
+# squares=[x ** 2 for x in range(11)]
+# print(squares)
 
-twos=[2 **i for i in range(11)]
-print(twos)
+# twos=[2 **i for i in range(11)]
+# print(twos)
 
-odds=[x for x in squares if x % 2 != 0]
-print(odds)
+# odds=[x for x in squares if x % 2 != 0]
+# print(odds)
 
-even=[x for x in squares if x % 2 == 0]
-print(even)
+# even=[x for x in squares if x % 2 == 0]
+# print(even)
 
-board=[]
-for i in range(8):
-    row=["EMPTY" for i in range(8)]
-    board.append(row)
-print(board)
+# board=[]
+# for i in range(8):
+#     row=["EMPTY" for i in range(8)]
+#     board.append(row)
+# print(board)
 
-print("hello world")
+# board[0][0]="Rook"
+# board[0][7]="Rook"
+# board[7][0]="Rook"
+# board[7][7]="Rook"
+
+# board[0][1]= "Knight"
+# board[0][6]= "Knight"
+# board[7][1]= "Knight"
+# board[7][6]= "Knight"
+
+# for i in range(len(board)):
+#     print(board[i])
+
+
+# temps=[[0.0 for i in range(24)] for j in range(31)]
+
+# random=[20, 34,56,20,66,20, 34,56,20,66,20, 34,56,20,66,20, 34,56,20,66,-6, 34,56,20,66,20, 34,56,20,66,10]
+# print(len(random))
+
+# for index in range(len(temps)):
+#     temps[index][11]=random[index]
+    
+# for index in range(len(temps)):
+#     print(temps[index])
+    
+# sum=0
+# for index in range(len(temps)):
+#     sum += temps[index][11]
+    
+# print(sum/31) 
+
+# highest=0
+# for index in range(len(temps)):
+#     for inner_index in range(len(temps[index])):
+#         if highest < temps[index][inner_index]:
+#             highest= temps[index][inner_index]
+# print(highest)
+
+# lowest=0
+# for index in range(len(temps)):
+#     for inner_index in range(len(temps[index])):
+#         if lowest > temps[index][inner_index]:
+#             lowest= temps[index][inner_index]
+# print(lowest)
+
+
+rooms=[[[False for r in range(20)] for f in range(15)] for t in range(3)]
+for building_index in range(len(rooms)):
+    print("Bulding" , building_index +1)
+    for floor_index in range(len(rooms[building_index])):
+        print("floor :" , floor_index +1)
+        for rooms_index in range(len(rooms[building_index][floor_index])):
+            print("rooms :" , rooms_index +1)
+print(rooms[building_index][floor_index][rooms_index])
