@@ -676,11 +676,96 @@ index       index_inner     current list
 # print(lowest)
 
 
-rooms=[[[False for r in range(20)] for f in range(15)] for t in range(3)]
-for building_index in range(len(rooms)):
-    print("Bulding" , building_index +1)
-    for floor_index in range(len(rooms[building_index])):
-        print("floor :" , floor_index +1)
-        for rooms_index in range(len(rooms[building_index][floor_index])):
-            print("rooms :" , rooms_index +1)
-print(rooms[building_index][floor_index][rooms_index])
+# rooms=[[[False for r in range(20)] for f in range(15)] for t in range(3)]
+# for building_index in range(len(rooms)):
+#     print("Bulding" , building_index +1)
+#     for floor_index in range(len(rooms[building_index])):
+#         print("floor :" , floor_index +1)
+#         for rooms_index in range(len(rooms[building_index][floor_index])):
+#             print("rooms :" , rooms_index +1)
+# print(rooms[building_index][floor_index][rooms_index])
+
+
+# def message():
+#     print("Enter a value :")
+#     a=int(input())
+#     print(a)
+# message()
+# message()
+# message()
+'''  repeated code convert a function a single line
+print("Enter a value :")
+a=int(input())
+print(a)
+    
+print("Enter a value :") 
+a=int(input())
+print(a)
+    
+print("Enter a value :")
+a=int(input())
+print(a)
+'''
+# def message():
+#     print("Enter next line")
+# print("We start here:")
+# message()
+# print("The end here:")
+
+
+# def message():
+#     print("Enter a value :")
+#     return 
+#     a=int(input())
+# a=message()
+# print(message())
+
+
+# message()
+
+# def hi(): # parameter
+#     print("HII")
+# hi(5) # argument
+
+# def hello(n): # defined a function
+#     print("Hello",n) # body of the function
+# name=input("Enter your name :") #input function
+# hello(name) #calling the function and argument pass
+
+
+# def message(num):
+#     print("Enter a number",number)
+#     print("num"aaum)
+# number=1234
+# message(1)
+# print(number)
+
+# def message(what,number):
+#     print("Enter",what,"number",number)
+# message("telephone",11)
+# message("Price",5)
+# message("number","number")
+
+def print_grade(name,marks):
+    grade=""
+    if marks < 50:
+        grade = "D"
+    elif marks < 60:
+        grade = "C"
+    elif marks < 75:
+        grade = "B"
+    elif marks < 90:
+        grade = "A"
+    elif marks > 90:
+        grade = "A+"
+    print(f'Hello {name} , your grade from {marks} is {grade} !')
+
+print_grade("kausahl",0)
+print_grade("Dipesh",80)
+print_grade("harshit",70)
+print_grade("Luvkush",60)
+print_grade("Shivani",95)
+print_grade("khushi",55)
+    
+    
+    
