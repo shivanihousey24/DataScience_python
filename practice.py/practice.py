@@ -746,26 +746,315 @@ print(a)
 # message("Price",5)
 # message("number","number")
 
-def print_grade(name,marks):
-    grade=""
-    if marks < 50:
-        grade = "D"
-    elif marks < 60:
-        grade = "C"
-    elif marks < 75:
-        grade = "B"
-    elif marks < 90:
-        grade = "A"
-    elif marks > 90:
-        grade = "A+"
-    print(f'Hello {name} , your grade from {marks} is {grade} !')
+# def print_grade(name,marks):
+#     grade=""
+#     if marks < 50:
+#         grade = "D"
+#     elif marks < 60:
+#         grade = "C"
+#     elif marks < 75:
+#         grade = "B"
+#     elif marks < 90:
+#         grade = "A"
+#     elif marks > 90:
+#         grade = "A+"
+#     print(f'Hello {name} , your grade from {marks} is {grade} !')
 
-print_grade("kausahl",0)
-print_grade("Dipesh",80)
-print_grade("harshit",70)
-print_grade("Luvkush",60)
-print_grade("Shivani",95)
-print_grade("khushi",55)
+# print_grade("kausahl",0)
+# print_grade("Dipesh",80)
+# print_grade("harshit",70)
+# print_grade("Luvkush",60)
+# print_grade("Shivani",95)
+# print_grade("khushi",55)
+
+# def introduction(first_name,last_name="NA"):
+#     print("HEllo , my name is", first_name,last_name)
+# #keyword argument passing
+# introduction(first_name="shivani",last_name="chouksey")
+# introduction(last_name="chouksey",first_name="shivani")
+# introduction("bond","james")
+# introduction("adtya")   
+
+# def addition(a,b,c):
+#     print(a,"+",b,"+",c,"=",a+b+c)
+# addition(1,2,3)
+# addition(1,b=2,c=5)
+# addition(a=67,b=54,c=78)
+# addition(1,a=5,b=54)
+# addition(b=43,a=5,56)
+
+# def happyNewYear(wishes=True):
+#     print("Three...")
+#     print("Two...")
+#     print("One...")
+#     if not wishes:
+#         print("HAPPY NEW YEAR")
+# happyNewYear()
+# print("-------xxx------")
+# happyNewYear(False)
+
+# def boringFunction():
+#     return 123 
+# x=boringFunction()   
+# print("the boringFunction has return its result. its :",x)
+
+# value=None
+# if value is None:
+#     print("sorry, you dont carry any value")
+# value=input("Enter None :")
+# if value=="":
+#     value= None
+# print(value)
+# print(type(value))
+
+# def strangeFunction(n):
+#     if(n%2==0):
+#         return True
+# print(strangeFunction(2))
+# print(strangeFunction(1))
+# print(strangeFunction(int(input("Enter:"))))
+
+# def list_sum(lst):
+#     s=0
+#     for i in lst:
+#         s+=i
+#     return s
+# print(list_sum([2,33,4,5,6]))
+
+# def strange_list_fun(n):
+#     strange_list=[]
+#     for i in range(0,n):
+#         strange_list.insert(0,i)
+#     return strange_list
+# print(strange_list_fun(5))
+
+# scooping
+
+# def scope_test():
+#     x=123
+# scope_test()
+# # print(x)
+
+# def my_function():
+#     print("Do i know that variable", var) 
     
-    
-    
+# var=1
+# my_function()
+# print(var)
+
+# var=5                             
+# def mult_by_var(x):
+#     return x * var
+# print(mult_by_var(7))
+
+
+# def mult(x):
+#     var=5               # shadowing var in local scope
+#     return x * var
+# print(mult(7))
+
+# def addition(x):
+#     var=7
+#     return x + var
+
+# print(addition(4))
+# # print(var)       # NameError: name 'var' is not defined in adding function local scope
+
+# # global keyword
+
+# def my_function():
+#     global var
+#     var=2
+#     print("Do i know that variable ?",var)
+
+# var=1
+# my_function()
+# print(var)
+
+# var=2
+# print(var)
+
+# def return_var():
+#     global var
+#     var=5
+#     return var
+# print(return_var())
+# print(var)
+
+
+# def my_function(n):
+#     print("I got",n)
+#     n +=1
+#     print("I have",n)
+
+# var=1
+# my_function(var)
+# print(var)
+
+# def my_function(my_list_1):
+#     print("Print 1",my_list_1)
+#     print("Print 2",my_list_2)
+#     my_list_1=[0,1]
+#     print("Print 3",my_list_1)
+#     print("Print 4",my_list_2)
+# my_list_2=[2,3]
+# my_function(my_list_2)
+# print("Print 5",my_list_2)
+# print("------XXXXXX------")
+
+# # primitive data type and complex data type
+# def my_function(my_list_1,v):
+#     print("Print 1",my_list_1)
+#     print("Print 2",my_list_2)
+#     print("V :",v)
+#     print("Var :",var)
+#     del my_list_1[0]
+#     my_list_1.append(4)
+#     del v
+#     #my_list_1=[0,1]
+#     print("Print 3",my_list_1)
+#     print("Print 4",my_list_2)
+#     # print("V :",v)
+#     print("Var :",var)
+# my_list_2=[2,3]
+# var=2
+# my_function(my_list_2,var)
+# print("Print 5",my_list_2)
+
+# tuples
+
+# tup1=(1,2,3,4,True)
+# print("tup1 :",tup1)
+# print("tup1 :",type(tup1))
+
+# tup2 = 1.,2,3.45
+# print("tup2 :",tup2)
+# print("tup2:",type(tup2))
+
+# empty_tup = ()
+# print("empty_tup :",empty_tup)
+# print("empty_tup :",type(empty_tup))
+
+# one_element_tup = (1,)
+# print("one_element_tup :",one_element_tup)
+# print("one_element_tup :",type(one_element_tup))
+
+# one_element_tup_2= 1,
+# print("one_element_tup_2 :",one_element_tup_2)
+# print("one_element_tup_2 :",type(one_element_tup_2))
+
+# my_tup = (1,17,78,56)
+
+# my_tup.append(1000)   
+#AttributeError: 'tuple' object has no attribute 'append'
+
+# del my_tup[0]
+# TypeError: 'tuple' object doesn't support item deletion
+
+# my_tup[1] = -19
+# TypeError: 'tuple' object does not support item assignment
+
+# my_tup=(1,)
+# my_tup2=(2,)
+# print(my_tup + my_tup2)
+
+# my_tup_2 = (2,"A",True,2.3)
+# my_new_tup=my_tup_2 * 3
+# print(my_new_tup)
+
+# my_tuple=(10,20,30)
+# t1=my_tuple + (100,200)
+# t2=my_tuple *4
+
+# print(len(t2))
+# print(t2)
+# print(10 in my_tuple)
+# print(-10 not in my_tuple)
+
+
+# tuple1=(1,2,3)
+# for i in tuple1:
+#     print(tuple1)
+# print("---xxxx-----")
+# tuple2=(1,2,3,4)
+# print(5 in tuple2)
+# print(5 not in tuple2)
+# print("---xxxx-----")
+# tuple3=(1,2,3,4)
+# print(len(tuple3))
+# print(5 not in tuple3)
+# print("---xxxx-----")
+# tuple4=tuple1 + tuple2
+# tuple5=tuple3 * 2
+# print(tuple5[0])
+# print(tuple5[1])
+# print(tuple4)
+# print(tuple5)
+
+#patel electron 
+# my_tup=tuple((1,2,"string"))
+# print(my_tup)
+
+# my_list=[2,4,5]
+# print(my_list)
+# print(type(my_list))
+
+# tup=tuple(my_list)
+# print(tup)
+# print(type(tup))
+
+# var=122
+# t1=(1,)
+# t2=(2,)
+# t3=(3,var)
+# t1,t2,t3 = t2,t3,t1
+# print(t1,t2,t3)
+
+# Dictonary
+
+# pol_eng_dict={"gleba": "soil"}
+# pol_eng_dict.update({"Kwiat":"flower"})
+# print(pol_eng_dict)
+# pol_eng_dict.popitem()
+# print(pol_eng_dict)
+
+
+
+# dictionary={
+#     "zameek" : "castle",
+#     "woda" : "water",
+#     "gleba" : "soil"
+# }
+# print(len(dictionary))
+# del dictionary["zameek"]
+# print(len(dictionary))
+
+# dictionary.clear()
+# print(len(dictionary))
+
+# del dictionary
+# print(dictionary)
+
+'''
+dictionary { }
+name            sumit
+mark            98
+'''
+
+dictionary = {}
+while  True :
+    name=input("Enter your name :")
+    if name != "":
+        mark = float(input(f"Enter {name} score :"))
+        if name not in dictionary:
+            dictionary.update({name :(mark,)})
+        else:
+            dictionary[name]= dictionary[name] + (mark,)
+    else:
+        break
+for name , marks in dictionary.items():
+    sum=0
+    for mark in marks:
+        sum += mark
+    print(f"{name} Average score is : {sum/len(marks)}")
+   

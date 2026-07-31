@@ -298,3 +298,49 @@ print(squares,cube)
 names = ["ram","shyam","mohan","sohan"]
 name=["Hello" + name.capitalize() for name in names ]
 print(name)
+
+# FUNCTION
+# 1.Write a function to print "Hello World".
+# 2.Write a function to print your name.
+# 3.Write a function that takes a number as an argument and prints its square.
+# Example:
+# Input: 5
+# Output: 25
+# 4.Write a function to print the sum of two numbers.
+# 5.Write a function to print the maximum of two numbers.
+# 6.Write a function to check whether a number is even or odd.
+# 7.Write a function to check whether a number is positive, negative, or zero.
+# 8.Write a function to check whether a number is prime or not.
+# 9.Write a function to print all prime numbers between 1 and N.
+# 10.Write a function to calculate the factorial of a number.
+# 11.Write a function to calculate the sum of digits of a number.
+# Example:
+# Input: 1234
+# Output: 10
+# 12.Write a function to count the number of digits in a number.
+# 13.Write a function to reverse a number.
+# Example:
+# Input: 1234
+# Output: 4321
+# 14.Write a function to check whether a number is a palindrome.
+# Example:
+# 121 → Palindrome
+# 123 → Not Palindrome
+# 15.Write a function that takes a list and returns the largest element.
+# 16.Write a function that takes a list and returns the smallest element.
+# 17.Write a function that takes a list and returns the sum of all elements.
+# 18.Write a function that counts the number of vowels in a string.
+# Example:
+# Input: "Python Programming"
+# Output: 4
+# 19.Write a function that returns the second largest element in a list.
+# Example:
+# Input: [10, 20, 5, 40, 30]
+# Output: 30
+# 20.Write a function that checks whether a string is an anagram of another string.
+# Example:
+# Input:
+# listen
+# silent
+# Output:
+# Anagram
